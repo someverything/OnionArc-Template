@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Common
 {
-    public class BaseEntity
+    public class BaseEntity : IEntity
     {
         public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
